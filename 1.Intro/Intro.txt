@@ -1,6 +1,6 @@
 Hi everyone . Welcome to you all in DSA.
 I use C programming language .
-I am learning DSA from Jenny's Lecture.Besides I am using chatGpt to clear some problems.
+I am learning DSA from Bangla Coding Tutor. Besides I am using chatGpt to clear some problems.
 I divide Data Structures and Algorithms in 2 parts as our course plan...
  i. Data Structures
 
