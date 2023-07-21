@@ -1,3 +1,5 @@
+//push means last In, First Out..
+
 #include<stdio.h>
 #define CAPACITY 3
 int stack[CAPACITY];
