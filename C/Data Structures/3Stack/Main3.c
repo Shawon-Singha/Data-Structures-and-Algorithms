@@ -2,25 +2,27 @@
 #include<conio.h>
 #define CAPACITY 3
 int stack[CAPACITY];
-int top = -1;
+int top = 0;
 
 void push(int x){
-    if (top < CAPACITY-1)
-    {    top++;
+    if (top < CAPACITY)
+    {    
         stack[top] = x;
         printf("In index %d value Seccessfully added  %d\n",top,x);
-        
+        top++;
         
     }
     else{
-        printf("No Space.");
+        printf("No Space.\n");
     }
 }
 
+
 int pop(){
     if(top >=0){
-        int val = stack[top];
         top--;
+        int val = stack[top];
+        
         return val;
     }
     printf("Exception in pop.");
