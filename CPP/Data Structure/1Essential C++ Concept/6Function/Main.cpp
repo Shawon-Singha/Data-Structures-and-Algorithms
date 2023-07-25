@@ -9,12 +9,12 @@ int add (int a,int b) // formal parameter
 }
 
 int main(){
-    int x,y,z;
+    int x,y,sum;
     x = 20;
     y = 10;
-    z = add(x,y); //Actual parameter
+    sum = add(x,y); //Actual parameter
 
-    cout << " Addition is : " << z << endl;
+    cout << " Addition is : " << sum << endl;
 
      return 0;
 }
