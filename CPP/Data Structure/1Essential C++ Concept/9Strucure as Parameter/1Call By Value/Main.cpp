@@ -8,13 +8,13 @@ struct Rectangle
 };
 
 
-/*in call by address ,just only formal parameter will change 
+/*in call by Value ,just only formal parameter will change 
  actual parameter will remain same...*/
 
 void area(struct Rectangle r1) // formal parameter..
 {
     r1.length = 20; // here formal parameter value is changed ,not actual value ...
-    
+
   cout << "Length is :  " << r1.length << endl
         << "Width is : " << r1.width << endl;
 }
