@@ -9,9 +9,7 @@ int *fun(int size){
     {
         p[i] = i+1; // Store the value in that allocated memory...
     }
-
      return p;
-    
 }
 
 int main(){
@@ -23,7 +21,5 @@ int main(){
   {
     cout << ptr[i] << endl;
   }
-
-  return 0;
-  
+  return 0; 
 }
