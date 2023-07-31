@@ -9,7 +9,7 @@ int area(int length ,int width){
 }
 
 int parameter(int length ,int width){
-    return 2 * length * width;
+    return 2 * (length + width);
 }
 
 int main(){

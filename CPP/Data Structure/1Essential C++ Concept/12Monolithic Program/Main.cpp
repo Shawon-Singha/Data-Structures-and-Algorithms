@@ -10,7 +10,7 @@ int main(){
    cin >> length >> width;
 
    int area = length * width ;
-   int pari = 2 * area;
+   int pari = 2 * (length + width);
 
    cout << "Area is : " << area << endl
         << "Parameter is : " << pari << endl;
