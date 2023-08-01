@@ -5,7 +5,7 @@ template<class T>
 
 class Arithametic
 {
-public: 
+private: 
     T a;
     T b;
 public:
