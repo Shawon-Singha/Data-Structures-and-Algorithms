@@ -20,7 +20,7 @@ int main() {
     cin >> z;
 
 
-    cout << "The value before swapping are :" << endl;
+    cout << endl <<  "Before swapping,the value are :" << endl;
     cout << "element 1 = "<< x << endl
          << "element 2 = " <<y << endl
          << "element 3 = "<< z<<  endl;
@@ -30,7 +30,7 @@ int main() {
    
 
     
-    printf("The value after swapping are :\n");
+    cout << endl << "After swapping,the value are :" << endl;
     cout << "element 1 = " << x << endl
            << "element 2 = " << y << endl
            <<"element 3 = "<< z << endl;

@@ -1,5 +1,5 @@
-#include <stdio.h>
-
+#include <iostream>
+using namespace std;
 
 int stringLength(const char* str) {
     int length = 0;
@@ -17,7 +17,6 @@ int main() {
     printf("Enter a string: ");
     fgets(userInput, MAX_LENGTH, stdin);
 
-    // Remove the newline character from the end of the input
     int len = stringLength(userInput);
     if (len > 0 && userInput[len - 1] == '\n') {
         userInput[len - 1] = '\0';

@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 
 int sum(int n){
     if(n==0)return 0;
@@ -7,7 +8,7 @@ int sum(int n){
 
 int main(){
     int n;
-    printf("Input the last number of the range starting from 1 :");
+   cout << "Input the last number of the range starting from 1 :";
     scanf("%d",&n);
 
     int total = sum(n);

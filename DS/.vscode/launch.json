@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Java_Lab_Task1/DS",
-      "program": "d:/Java_Lab_Task1/DS/build/Debug/outDebug",
+      "cwd": "d:/Data-Structures-and-Algorithms/DS",
+      "program": "d:/Data-Structures-and-Algorithms/DS/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

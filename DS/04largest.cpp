@@ -12,7 +12,6 @@ void largest(int array[],int x){
 
 }
 
-
 int main(){
     int n;
     printf("Input the number of elements to be stored in the array:");

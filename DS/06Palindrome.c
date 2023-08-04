@@ -8,12 +8,10 @@ bool isPalindrome(const char *str, int start, int end) {
         return true;
     }
 
-   
     if (str[start] != str[end]) {
         return false;
     }
 
-    
     return isPalindrome(str, start + 1, end - 1);
 }
 
@@ -30,6 +28,5 @@ int main() {
     } else {
         printf("The string is not a palindrome.\n");
     }
-
     return 0;
 }
