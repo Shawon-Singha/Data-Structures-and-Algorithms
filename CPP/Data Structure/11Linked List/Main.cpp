@@ -30,12 +30,15 @@ int main(){
    b->next = c;
    c->next = NULL;
 
-   while (a !=NULL)
+   while (a != NULL)
    {
       cout << a->data << endl;
       a = a->next;
    }
-   
+
+   delete a;
+   delete b;
+   delete c;
 
    return 0;
 }
