@@ -13,7 +13,9 @@ int linera_Search(int a[],int n,int x){
 
 int main(){
     int a[5] = {10,20,30,40,50};
-    int b = 30;
+    int b;
+    cout <<  " Enter the Key value : ";
+    cin >> b;
 
     cout << linera_Search(a,5,b);
 
