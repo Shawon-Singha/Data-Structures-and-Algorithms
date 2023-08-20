@@ -1,5 +1,6 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
+
 void quickSort(int a[],int start,int end){
     if(start >= end){
         return;
@@ -13,5 +14,5 @@ void quickSort(int a[],int start,int end){
 
 int main(){
     int a[7] = {10,15,1,2,4,16,11};
-    quickSort(a,0,);
+    quickSort(a,0,7);
 }

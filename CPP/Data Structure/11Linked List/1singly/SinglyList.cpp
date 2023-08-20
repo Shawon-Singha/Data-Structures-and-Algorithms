@@ -7,15 +7,12 @@ struct Node{
 };
 
 int main(){
+   //memory allocate using c..
    // struct Node *a =(struct Node*)malloc(sizeof(struct Node));
    // struct Node *b = (struct Node*)malloc(sizeof(struct Node));
    // struct Node *c = (struct Node*)malloc(sizeof(struct Node));
 
-//    a = (struct Node*)malloc(sizeof(struct Node));
-//    b = (struct Node*)malloc(sizeof(struct Node));
-//    c = (struct Node*)malloc(sizeof(struct Node));
-
-    //Memory allocate
+    //Memory allocate using cpp...
    struct Node *a = new Node;
    struct Node *b = new Node;
    struct Node *c =  new Node;
