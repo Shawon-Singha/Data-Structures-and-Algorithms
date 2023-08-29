@@ -4,7 +4,7 @@
 
 struct Student {
     int sid;
-    char sname[50];
+    char sname[40];
     struct Student* next;
 };
 
