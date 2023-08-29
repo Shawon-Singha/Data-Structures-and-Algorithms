@@ -23,7 +23,7 @@ int main() {
     struct Node *prevNode = nullptr;
 
     // Create the linked list based on user input
-    for (int i = 0; i < numNodes-1; i++) {
+    for (int i = 0; i < numNodes; i++) {
         struct Node *newNode = new Node;
 
         cout << "Enter data for node " << i + 1 << ": ";
